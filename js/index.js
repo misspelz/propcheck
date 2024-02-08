@@ -152,6 +152,14 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "./aboutus.html";
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .querySelector(".menu .btnmobile ")
+    .addEventListener("click", function (event) {
+      event.preventDefault();
+      window.location.href = "./aboutus.html";
+    });
+});
 // routes
 
 // properties section
