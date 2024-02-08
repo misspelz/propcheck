@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/getstarted.css" />
+    <title>Get Started</title>
+  </head>
+  <body>
+    <div id="getStartedContainer">
+      <div class="backgroundImage">
+        <div id="overlay">
+          <div class="optionsContainer" id="optionsContainer">
+            <select name="service" id="service" class="options">
+              <option value="" disabled selected>Choose a Service</option>
+              <option value="verify">Property Verification</option>
+              <option value="document">Property Documentation</option>
+              <option value="crisis">Manage Crisis</option>
+            </select>
+            <div class="arrowIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6 text-white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <button id="submitButton">Submit</button>
+          
+          <!-- Form starts here -->
+          <form id="infoForm" class="getstarted-form" style="display: none">
+            <h2 class="getstarted-form-title">Your Details</h2>
+            <div class="getstarted-form-group">
+              <label for="name" class="getstarted-form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="getstarted-form-input"
+                placeholder="your name"
+                required
+              />
+            </div>
+            <div class="getstarted-form-group">
+              <label for="email" class="getstarted-form-label"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="getstarted-form-input"
+                placeholder="youremail@gmail.com"
+                required
+              />
+            </div>
+            <div class="getstarted-form-group">
+              <label for="contactAddress" class="getstarted-form-label"
+                >Contact Address</label
+              >
+              <textarea
+                id="contactAddress"
+                name="contactAddress"
+                class="getstarted-form-input"
+                placeholder="your address"
+                required
+              > your address</textarea>
+            </div>
+            <button
+              type="submit"
+              class="getstarted-form-button"
+              id="infoSubmitBtn"
+            >
+              Submit
+            </button>
+          </form>
+          <!-- Form ends here -->
+
+          <!-- Property details starts here -->
+          <form
+            id="propertyForm"
+            class="propertyForm-form"
+            style="display: none"
+          >
+            <h2 class="propertyForm-form-title">Property Details</h2>
+            <div class="propertyForm-form-group">
+              <label for="property" class="property-form-label">Type</label>
+              <input
+                type="text"
+                id="property"
+                name="property"
+                class="property-form-input"
+                placeholder="type"
+                required
+              />
+            </div>
+            <div class="propertyForm-form-group">
+              <label for="location" class="property-form-label">Address</label>
+              <input
+                type="text"
+                id="location"
+                name="location"
+                placeholder="address"
+                class="property-form-input"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              class="property-form-button"
+              id="propertySubmitBtn"
+            >
+              Submit
+            </button>
+          </form>
+          <!-- Property details ends here -->
+
+          <!-- Choose password starts here -->
+          <form id="passwordForm" class="password-form" style="display: none">
+            <h2 class="password-form-title">Choose a Password</h2>
+            <div class="password-form-group">
+              <label for="password" class="password-form-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="password-form-input"
+                placeholder="your password"
+                required
+              />
+            </div>
+            <div class="password-form-group">
+              <label for="confirm-password" class="password-form-label"
+                >Confirm Password</label
+              >
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                class="password-form-input"
+                placeholder="confirm your password"
+                required
+              />
+            </div>
+
+            <button type="submit" class="password-form-button" id="passwordBTN">
+              Submit
+            </button>
+          </form>
+          <!-- Choose password ends here -->
+
+          <!-- Email sent starts here -->
+          <form id="emailForm" class="email-form" style="display: none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+              style="width: 100px;"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+              />
+            </svg>
+
+            <h2 class="title">THANK YOU</h2>
+
+            <p class="message">Check your Mail to verify your Email Address</p>
+
+            <!-- Submit Button -->
+            <button type="submit" class="email-form-button" id="emailSubmitBtn">
+              Back to Home
+            </button>
+          </form>
+
+          <!-- Email sent ends here -->
+        </div>
+      </div>
+    </div>
+    <script src="/js/getstarted.js"></script>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PropCheck</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <img
+          src="/images/p_logo.png"
+          alt="logo"
+          width="200"
+          class="logo desktop-logo"
+        />
+        <img
+          src="/images/p_logo2.png"
+          alt="logo"
+          width="40"
+          class="logo mobile-logo"
+        />
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="menu" id="mobileMenu">
+          <div class="close-btn" onclick="toggleMenu()">×</div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="/login.html" id="login">Log In</a></li>
+          </ul>
+        </div>
+
+        <div class="user-info">
+          <p class="welcome-text">Welcome, Guest!</p>
+          <button class="btn">Log In</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-section">
+        <div class="hero-container">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="icon-container" id="iconContainer">
+              <img
+                src="/images/checkmark.png"
+                alt="check-mark-icon"
+                width="100px"
+              />
+            </div>
+            <div class="text-container"></div>
+          </div>
+          <div class="get-started">
+            <img
+              src="/images/support.png"
+              alt="customer-support-image"
+              width="350"
+            />
+            <button class="btn getstarted">
+              GET STARTED
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="get-started-mobile">
+      <img
+        src="/images/support.png"
+        alt="customer-support-image"
+        class="image-mobile"
+      />
+      <button class="btn readmore-btn getstarted">
+        GET STARTED
+      </button>
+    </div>
+
+    <!-- ABOUT US SECTION -->
+    <section class="about-us">
+      <div class="about-us-section">
+        <div class="about-us-container">
+          <div class="about-text">
+            <h2>About Us</h2>
+            <p class="about-text-p p1">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </p>
+            <p class="about-text-p p2">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </p>
+            <button class="about-us-btn">READ MORE</button>
+          </div>
+          <div class="about-image-div">
+            <img
+              src="https://img.freepik.com/free-photo/about-us-information-service-sharing-join-concept_53876-124056.jpg?w=740&t=st=1706083576~exp=1706084176~hmac=17d96716a152e95211105f696347ca95ee38baa099eceae515e6f1e6ad8f712a"
+              alt="about-us-image"
+              class="about-us-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPERTIES SECTION -->
+    <section class="properties">
+      <div class="properties-section">
+        <div class="properties-container">
+          <div class="properties-text">
+            <h2>Secured Properties</h2>
+          </div>
+
+          <!-- Carousel -->
+          <div class="properties-image-wrapper"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonial">
+      <div class="testimonial-section">
+        <div class="testimonial-container">
+          <div class="testimonial-cont">
+            <div class="testimonial-cont-left">
+              <h2>Testimonials</h2>
+            <div class="testimonials-container"></div>
+            </div>
+          <div class="testimonial-cont-right">
+            <img
+              src="https://img.freepik.com/free-photo/joy-positiveness-body-language-beautiful-happy-young-mulatto-girl-with-curly-black-hair-posing-isolated-dressed-silk-pajamas-making-thumbs-up-gesture-showing-ok-sign-smiling_343059-2617.jpg?w=740&t=st=1706087737~exp=1706088337~hmac=4008963bbed86b57fccad72f413139b069317811bd363241f1ff0d0f2fa495c4"
+              alt="about-us-image"
+              class="testimonial-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="get-btn">
+    <button class="btn readmore-btn getstarted" >
+      GET STARTED
+    </button>
+  </div>
+
+  <footer>
+    <div id="footer" class="footer">
+     
+  
+      <div class="menu-links">
+        <div class="bac">
+          <span class="cursor-pointer ptc-ul">Blog</span>
+          <span>|</span>
+          <span class="cursor-pointer ptc-ul">About Us</span>
+          <span>|</span>
+          <span class="cursor-pointer ptc-ul">Career</span>
+        </div>
+        <div class="ptc">
+          <span class="cursor-pointer ptc-ul">Privacy</span>
+          <!-- <li>|</li> -->
+          <span class="cursor-pointer ptc-ul">Terms</span>
+          <!-- <li>|</li> -->
+          <span class="cursor-pointer ptc-ul">Cookies</span>
+        </div>
+      </div>
+  
+      <div class="footer-info">
+        <p>Copyright &copy; 2024</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cookieWarning" class="cookie-warning" style="display: none;">
+    <p>This website uses cookies. By continuing to use this site, you consent to our use of cookies.</p>
+    <button id="cookieButton" class="cookieButton">Got it!</button>
+  </div>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

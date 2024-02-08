@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  margin-bottom: 20px;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionsContainer {
+  position: relative;
+}
+
+.options {
+  background-color: #212529;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline-style: none;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#submitButton {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #194701;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 275px;
+}
+
+.backgroundImage {
+  background-image: url("https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* getstarted.css */
+
+.getstarted-backgroundImage {
+  background-image: url("your-background-image-url.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstarted-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getstarted-optionsContainer {
+  margin-bottom: 20px;
+}
+
+.getstarted-options {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.getstarted-submitButton {
+  padding: 10px 20px;
+  background-color: #6dc639;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.getstarted-submitButton:hover {
+  background-color: #6dc639;
+}
+
+.getstarted-form,
+.propertyForm-form,
+.password-form,
+.email-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.getstarted-form-title,
+.propertyForm-form-title,
+.password-form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.getstarted-form-group,
+.propertyForm-form-group,
+.password-form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.getstarted-form-label,
+.property-form-label,
+.password-form-label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.getstarted-form-input,
+.property-form-input,
+.password-form-input {
+  width: 90%;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline-style: none;
+}
+
+.getstarted-form-button,
+.property-form-button,
+.password-form-button,
+.email-form-button {
+  padding: 20px 20px;
+  background-color: #194701;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.property-form-button:hover,
+.password-form-button:hover,
+.email-form-button:hover {
+  background-color: #6dc639;
+}
+
+@media screen and (min-width: 1024px) {
+  .getstarted-form,
+  .propertyForm-form,
+  .password-form,
+  .email-form {
+    width: 100%;
+  }
+}
