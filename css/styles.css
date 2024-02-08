@@ -30,6 +30,10 @@ nav {
   background-color: red;
 }
 
+.customer-support-image{
+  /* width: 350px; */
+}
+
 .desktop-logo {
   display: none;
 }
@@ -401,9 +405,14 @@ nav {
     top: 20%;
   }
 }
-@media (min-width: 480px) {
-  .container {
-    /* width: 95%; */
+
+@media (min-width: 780px) {
+  .customer-support-image{
+    /* width: 50px; */
+  }
+
+  .image-mobile {
+    width: 50%;
   }
 }
 
@@ -649,6 +658,10 @@ nav {
   .ptc-ul {
     list-style-type: none;
     cursor: pointer;
+  }
+
+  .customer-support-image{
+    width: 350px;
   }
 
   .footer-info {
