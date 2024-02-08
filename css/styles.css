@@ -45,12 +45,14 @@ nav {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
-  span {
-    height: 3px;
-    width: 22px;
-    margin: 2px 0;
-    background-color: #194701;
-  }
+  
+}
+
+.menu-toggle  .bar {
+  height: 3px;
+  width: 22px;
+  margin: 2px 0;
+  background-color: #194701;
 }
 
 .menu {
@@ -415,16 +417,6 @@ nav {
   margin-left: 105px;
 }
 
-/* .details-text {
-  position: absolute;
-  top: 40px;
-  left: 0%;
-  transform: translateX(50%);
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-} */
 
 /* Responsive Styles */
 
