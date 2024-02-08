@@ -1,0 +1,1 @@
+PropCheck is a comprehensive property inspection and management solution designed to streamline the process of evaluating, documenting, and maintaining properties. Whether you're a property manager, landlord, real estate agent, or homeowner, PropCheck offers a robust set of features to enhance efficiency and ensure property upkeep.
