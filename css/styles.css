@@ -21,6 +21,7 @@ nav {
   z-index: 99;
   width: 100%;
   background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cont-div {
@@ -28,10 +29,6 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: red;
-}
-
-.customer-support-image{
-  /* width: 350px; */
 }
 
 .desktop-logo {
@@ -65,9 +62,7 @@ nav {
   right: 0;
   height: 100%;
   width: 100%;
-  /* margin: 0 auto; */
-  background-color: #6dc639;
-  /* padding: 20px; */
+  background-color: #194701;
   z-index: 1;
   ul {
     list-style-type: none;
@@ -76,7 +71,7 @@ nav {
       margin-bottom: 10px;
       a {
         text-decoration: none;
-        color: #194701;
+        color: #fff;
         font-weight: bold;
       }
       text-align: center;
@@ -85,7 +80,7 @@ nav {
 }
 
 #login {
-  color: white;
+  color: #ff0000;
 }
 
 .close-btn {
@@ -93,11 +88,11 @@ nav {
   font-size: 45px;
   margin-bottom: 10px;
   margin-top: 30px;
+  color: #fff;
 }
 
 .user-info {
   display: none;
-  /* margin-right: 100px; */
 }
 
 /* HERO SECTION */
@@ -106,7 +101,7 @@ nav {
 .about-us-btn,
 .cookieButton {
   border-radius: 0.375rem;
-  background-color: #194701;
+  background-color: #ff0000;
   font-size: 1rem;
   padding: 0.8rem 2.35rem;
   font-weight: bold;
@@ -121,11 +116,12 @@ nav {
 }
 
 .cookieButton {
-  background-color: #6dc639;
+  background-color: #ff0000;
+  padding: 0.3rem 1.00rem;
 }
 
 .readmore-btn {
-  background-color: #194701;
+  background-color: #ff0000;
   font-size: 14px;
 }
 
@@ -239,7 +235,7 @@ nav {
 .about-text h2,
 .properties-text h2 {
   margin: 0;
-  color: #6dc639;
+  color: #194701;
   font-size: 24px;
   line-height: 40px;
   text-align: center;
@@ -259,7 +255,6 @@ nav {
 .about-text-p {
   font-size: 16px;
   margin-top: 18px;
-  /* width: 350px; */
   text-align: center;
 }
 
@@ -286,6 +281,7 @@ nav {
   display: flex;
   width: calc(400px * 8);
   animation: scroll 40s linear infinite;
+  cursor: pointer;
 }
 
 .abs-top-main-child {
@@ -299,6 +295,7 @@ nav {
   transition: all 300ms linear;
   width: 100%;
   overflow: hidden;
+  
 }
 
 /* Testimonial */
@@ -334,7 +331,7 @@ nav {
 }
 
 .testimonial-cont-left h2 {
-  color: #6dc639;
+  color: #194701;
   font-size: 24px;
   line-height: 40px;
   text-align: center;
@@ -390,12 +387,31 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 14px;
-  /* gap: 25px; */
 }
 
 .footer-info p {
   margin: 8px;
 }
+
+.details-text{
+  position: absolute;
+  top: 45%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 105px;
+}
+
+/* .details-text {
+  position: absolute;
+  top: 40px;
+  left: 0%;
+  transform: translateX(50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+} */
 
 /* Responsive Styles */
 
@@ -407,22 +423,12 @@ nav {
 }
 
 @media (min-width: 780px) {
-  .customer-support-image{
-    /* width: 50px; */
-  }
-
   .image-mobile {
     width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
-  .container {
-    /* padding: 0 160px; */
-    /* margin: 0; */
-    /* width: 90%; */
-  }
-
   .get-started-mobile {
     display: none;
   }
@@ -522,7 +528,6 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    /* gap: 0px; */
   }
 
   .testimonial-container {
@@ -538,7 +543,7 @@ nav {
   .about-text h2,
   .properties-text h2 {
     margin-top: 20px;
-    color: #6dc639;
+    color: #194701;
     font-size: 36px;
     line-height: 40px;
     text-align: center;
@@ -557,7 +562,6 @@ nav {
   .about-text-p {
     font-size: 16px;
     margin-top: 18px;
-    /* width: 350px; */
     text-align: left;
   }
 
@@ -584,7 +588,7 @@ nav {
   }
 
   .testimonial-cont-left h2 {
-    color: #6dc639;
+    color: #194701;
     font-size: 36px;
     line-height: 40px;
     text-align: left;
@@ -620,7 +624,6 @@ nav {
   }
 
   /* footer */
-
   .footer {
     display: flex;
     flex-direction: column;
@@ -668,7 +671,6 @@ nav {
     display: flex;
     flex-direction: row;
     margin-top: 14px;
-    /* gap: 25px; */
   }
 
   .footer-info p {
@@ -699,7 +701,7 @@ nav {
 
 .cookie-warning {
   position: fixed;
-  bottom: 0px; /* Adjust as needed */
+  bottom: 0px;
   left: 0%;
   transform: translateX(-50%);
   z-index: 9999;

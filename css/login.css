@@ -34,6 +34,7 @@ body {
 .login-form-title {
   font-size: 24px;
   margin-bottom: 20px;
+  color: 194701;
 }
 
 .login-form-group {
@@ -59,7 +60,7 @@ body {
 
 .login-form-button {
   padding: 20px 20px;
-  background-color: #194701;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -70,7 +71,7 @@ body {
 }
 
 .login-form-buttonhover {
-  background-color: #6dc639;
+  background-color: #194701;
 }
 
 .show-password-label {
@@ -80,7 +81,7 @@ body {
   text-align: left;
   font-size: 15px;
   font-weight: 600;
-  color: #6dc639;
+  color: #194701;
 }
 
 .show-password-checkbox {

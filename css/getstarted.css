@@ -52,13 +52,20 @@ h1 {
 #submitButton {
   margin-top: 20px;
   padding: 15px 30px;
-  background-color: #194701;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   border-radius: 5px;
   font-size: 18px;
   cursor: pointer;
   width: 275px;
+  transition: background-color 0.5s;
+  &:hover {
+    background-color: #194701;
+  }
+  outline-style: none;
+  border: none;
+  cursor: pointer;
 }
 
 .backgroundImage {
@@ -121,6 +128,7 @@ h1 {
   width: 80%;
   max-width: 400px;
   text-align: center;
+  
 }
 
 .getstarted-form-title,
@@ -128,6 +136,7 @@ h1 {
 .password-form-title {
   font-size: 24px;
   margin-bottom: 20px;
+  color: #194701;
 }
 
 .getstarted-form-group,
@@ -162,7 +171,7 @@ h1 {
 .password-form-button,
 .email-form-button {
   padding: 20px 20px;
-  background-color: #194701;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -173,9 +182,10 @@ h1 {
 }
 
 .property-form-button:hover,
+.getstarted-form-button:hover,
 .password-form-button:hover,
 .email-form-button:hover {
-  background-color: #6dc639;
+  background-color: #194701;
 }
 
 @media screen and (min-width: 1024px) {
